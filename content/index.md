@@ -15,33 +15,25 @@ Kezdőlap
 ## 📚 Aktuális Félév Tantárgyai
 
 Kattints a tantárgy nevére a hozzá tartozó jegyzetek és fogalmak eléréséhez:
-* 📊 [[Statisztika I]
+* 📊 [[Statisztika I.]
 * 💾 [[IT architektúra]]
 * 💻 [[Software engingeering]]
 * 📈 [[Vállalati pénzügyek]]
 * 💰 [[Számvitel alapjai]]
 
-## 🗺️ Félév áttekintése
 
-```mermaid
-flowchart TD
-    Gyoker[🎓 Corvinus Gazdinfó]
-    
-    Gyoker --> Kvant[Kvantitatív]
-    Kvant --> Stat(Statisztika I.)
-    
-    Gyoker --> Penz[Pénzügy és Üzlet]
-    Penz --> Szamv(Számvitel alapjai)
-    Penz --> Vall(Vállalati pénzügyek)
-    
-    Gyoker --> IT[Informatika]
-    IT --> Arch(IT architektúra)
-    IT --> Soft(Software engineering)
+## 🗺️ Félév struktúrája áttekintés
 
-    %% Stílus beállítások, hogy még jobban nézzen ki
-    style Gyoker fill:#284b63,color:#fff,stroke-width:2px
-    style Kvant fill:#84a59d,color:#fff
-    style Penz fill:#84a59d,color:#fff
-    style IT fill:#84a59d,color:#fff
-```
+| Kategória           | Tantárgy                                                 | Fő témák / Fókusz                                |
+| :------------------ | :------------------------------------------------------- | :----------------------------------------------- |
+| **Kvantitatív**     | 📊 [[Statisztika I. - 1. gyakorlat\|Statisztika I.]]     | Valószínűségszámítás, elemzések                  |
+| **Pénzügy & Üzlet** | 💰 [[Számvitel alapjai]] <br> 📈 [[Vállalati pénzügyek]] | Kimutatások, tőkestruktúra, értékelés            |
+| **Informatika**     | ⚙️ [[IT architektúra]] <br> 💻 [[Software engineering]]  | Rendszertervezés, szoftverfejlesztési életciklus |
+|                     |                                                          |                                                  |
 
+## 📌 Gyors linkek és hasznos anyagok
+
+- 📖 [[Fogalomtár]] – Keresztirányú egyetemi fogalmak gyűjteménye
+
+> [!tip] Navigáció
+> Használd a `Cmd + O` billentyűkombinációt bármelyik jegyzet villámgyors megnyitásához, vagy a `Cmd + G`-t a vizuális tudásháló (Graph View) megjelenítéséhez!
