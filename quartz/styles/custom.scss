@@ -1,19 +1,27 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
-.page-title a {
-  display: flex;
-  align-items: center;
-  gap: 12px; /* Távolság a logó és a szöveg között */
+.page-title {
+  margin-top: 10px;
+}
 
-  &::before {
-    content: "";
-    display: inline-block;
-    width: 35px; /* A logód szélessége */
-    height: 35px; /* A logód magassága */
-    background-image: url('/static/logo.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+.page-title a {
+  display: flex !important;
+  flex-direction: column !important; /* Ez teszi a szöveg FÖLÉ a logót */
+  align-items: flex-start !important; /* Balra igazítja mindkettőt */
+  gap: 10px !important; /* Egy kis térköz a logó és a szöveg közé */
+}
+
+.page-title a::before {
+  content: "" !important;
+  display: block !important;
+  width: 70px !important;  /* Itt tudod módosítani a méretet */
+  height: 70px !important;
+  
+  /* A teljes webes hivatkozásod, így a szerver nem tud belezavarodni a mappákba: */
+  background-image: url('https://mezesmarton.github.io/corvinus-gazdinfo/static/logo.png') !important;
+  
+  background-size: contain !important;
+  background-position: left center !important;
+  background-repeat: no-repeat !important;
 }
