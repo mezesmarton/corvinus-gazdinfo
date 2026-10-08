@@ -1,0 +1,1 @@
+Ez a Statisztika I. tárgy tárgymutatója.
