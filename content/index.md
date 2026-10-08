@@ -15,8 +15,7 @@ Kezdőlap
 ## 📚 Aktuális Félév Tantárgyai
 
 Kattints a tantárgy nevére a hozzá tartozó jegyzetek és fogalmak eléréséhez:
-
-* 📊 [[Statisztika I.|Statisztika I.]]
+* 📊 [[Statisztika I]
 * 💾 [[IT architektúra]]
 * 💻 [[Software engingeering]]
 * 📈 [[Vállalati pénzügyek]]

@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Corvinus tudástár
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -73,7 +73,9 @@ plugins:
       enableYouTubeEmbed: true
       enableVideoEmbed: true
       enableCheckbox: true
-    order: 30
+    order: 10
+    options:
+      mermaid: true
   - source: "@quartz-community/github-flavored-markdown"
     enabled: true
     order: 40
