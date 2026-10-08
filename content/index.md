@@ -2,7 +2,7 @@
 title: Corvinus - Gazdinfó jegyzetek
 ---
 ---
-title: Kezdőlap
+Kezdőlap
 ---
 
 # 🎓 Corvinus Gazdinfó Tudásbázis
@@ -14,14 +14,13 @@ title: Kezdőlap
 
 ## 📚 Aktuális Félév Tantárgyai
 
-Kattints a tantárgy nevére a hozzá tartozó jegyzetek és fogalmak eléréséhez (amelyik szürke, ahhoz még nem hoztál létre al-jegyzetet):
+Kattints a tantárgy nevére a hozzá tartozó jegyzetek és fogalmak eléréséhez:
 
-* 📊 [[Statisztika I. - 1. gyakorlat|Statisztika I.]]
-* 💾 [[Adatbázisok]]
-* 💻 [[Szoftvertechnológia]]
-* 📈 [[Mikroökonómia]]
-* ⚙️ [[Üzleti folyamatok és modellezés]]
-* 💰 [[Pénzügy és Számvitel]]
+* 📊 [[Statisztika I.|Statisztika I.]]
+* 💾 [[IT architektúra]]
+* 💻 [[Software engingeering]]
+* 📈 [[Vállalati pénzügyek]]
+* 💰 [[Számvitel alapjai]]
 
 ## 🗺️ Félév áttekintése
 
@@ -30,11 +29,12 @@ mindmap
   root((Gazdinfó))
     Kvantitatív
       Statisztika I.
-      Mikroökonómia
     Informatika
-      Adatbázisok
-      Szoftvertech
+      IT architektúra
+      Szoftver engineering
     Üzleti
-      Folyamatmodellezés
-      Számvitel
+      Vállalati pénzügyek
+      Számvitel alapjai
+    
+```
 
