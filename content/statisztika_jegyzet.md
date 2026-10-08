@@ -4,10 +4,9 @@ course: Statisztika I
 tags: [statisztika, mennyisegi_sorok, mutatok, kozepertekek, szoras, aszimmetria, dobozabra]
 ---
 
-> [!abstract] Rövid áttekintés
+> [!abstract] TL;DR
 > A leíró statisztika célja a sokaság nagy mennyiségű adatának tömör, számszerű jellemzése. A jegyzet bemutatja az adatok táblázatos rendszerezését (**gyakorisági** és **értékösszegsorok**), a sokaság centrumának meghatározását (**helyzeti** és **számított középértékek**), a belső ingadozás mérését (**szóródási mutatók**), valamint a gyakorisági görbe formájának számszerűsítését (**alakmutatók**).
 
-![[Leíró_statisztikai_mutatók_áttekintése 1.png]]
 ### 1. A Sokaság Rendszerezése: Gyakorisági sorok
 
 A mennyiségi ismérvek (számszerűsíthető adatok) feldolgozásának első lépése a rangsorba állítás, majd az adatok csoportosítása.
