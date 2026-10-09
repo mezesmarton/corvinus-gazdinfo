@@ -26,10 +26,11 @@ Kattints a tantárgy nevére a hozzá tartozó jegyzetek és fogalmak elérésé
 
 | Kategória           | Tantárgy                                                 | Fő témák / Fókusz                                |
 | :------------------ | :------------------------------------------------------- | :----------------------------------------------- |
-| **Kvantitatív**     | 📊 [[Statisztika I. - 1. gyakorlat\|Statisztika I.]]     | Valószínűségszámítás, elemzések, kimutatások     |
+| **Kvantitatív**     | 📊 [[Statisztika I/index\|Statisztika I.]]               | Valószínűségszámítás, elemzések, kimutatások     |
 | **Pénzügy & Üzlet** | 💰 [[Számvitel alapjai]] <br> 📈 [[Vállalati pénzügyek]] | Könyvelé, tőkestruktúra, értékelés               |
 | **Informatika**     | ⚙️ [[IT architektúra]] <br> 💻 [[Software engineering]]  | Rendszertervezés, szoftverfejlesztési életciklus |
 |                     |                                                          |                                                  |
+
 
 ## 📌 Gyors linkek és hasznos anyagok
 
