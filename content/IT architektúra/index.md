@@ -1,0 +1,1 @@
+Ez az IT architektúra tárgy tárgymutatója.
