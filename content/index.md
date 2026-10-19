@@ -17,18 +17,17 @@ Kezdőlap
 Kattints a tantárgy nevére a hozzá tartozó jegyzetek és fogalmak eléréséhez:
 * 📊 [[Statisztika I/index|Statisztika I.]]
 * 💾 [[IT architektúra/index|IT architektúra]]
-* 💻 [[Software engingeering]]
-* 📈 [[Vállalati pénzügyek]]
+* 📈 [[Vállalati pénzügyek/index|Vállalati pénzügyek]]
 * 💰 [[Számvitel alapjai]]
 
 
 ## 🗺️ Félév struktúrája áttekintés
 
-| Kategória           | Tantárgy                                                                       | Fő témák / Fókusz                                |
-| :------------------ | :----------------------------------------------------------------------------- | :----------------------------------------------- |
-| **Kvantitatív**     | 📊 [[Statisztika I/index\|Statisztika I.]]                                     | Valószínűségszámítás, elemzések, kimutatások     |
-| **Pénzügy & Üzlet** | 💰 [[Számvitel alapjai]] <br> 📈 [[Vállalati pénzügyek]]                       | Könyvelé, tőkestruktúra, értékelés               |
-| **Informatika**     | ⚙️ [[IT architektúra/index\|IT architektúra]] <br> 💻 [[Software engineering]] | Rendszertervezés, szoftverfejlesztési életciklus |
+| Kategória           | Tantárgy                                                                            | Fő témák / Fókusz                                |
+| :------------------ | :---------------------------------------------------------------------------------- | :----------------------------------------------- |
+| **Kvantitatív**     | 📊 [[Statisztika I/index\|Statisztika I.]]                                          | Valószínűségszámítás, elemzések, kimutatások     |
+| **Pénzügy & Üzlet** | 💰 [[Számvitel alapjai]] <br> 📈 [[Vállalati pénzügyek/index\|Vállalati pénzügyek]] | Könyvelé, tőkestruktúra, értékelés               |
+| **Informatika**     | ⚙️ [[IT architektúra/index\|IT architektúra]] <br>                                  | Rendszertervezés, szoftverfejlesztési életciklus |
 
 
 ## 📌 Gyors linkek és hasznos anyagok
