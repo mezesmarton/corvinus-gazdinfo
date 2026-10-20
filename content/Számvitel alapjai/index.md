@@ -1,0 +1,1 @@
+Ez a Számvitel alapjai tárgy főoldala.

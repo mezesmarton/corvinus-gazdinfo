@@ -18,21 +18,20 @@ Kattints a tantárgy nevére a hozzá tartozó jegyzetek és fogalmak elérésé
 * 📊 [[Statisztika I/index|Statisztika I.]]
 * 💾 [[IT architektúra/index|IT architektúra]]
 * 📈 [[Vállalati pénzügyek/index|Vállalati pénzügyek]]
-* 💰 [[Számvitel alapjai]]
+* 💰 [[Számvitel alapjai/index|Számvitel alapjai]]
 
 
 ## 🗺️ Félév struktúrája áttekintés
 
-| Kategória           | Tantárgy                                                                            | Fő témák / Fókusz                                |
-| :------------------ | :---------------------------------------------------------------------------------- | :----------------------------------------------- |
-| **Kvantitatív**     | 📊 [[Statisztika I/index\|Statisztika I.]]                                          | Valószínűségszámítás, elemzések, kimutatások     |
-| **Pénzügy & Üzlet** | 💰 [[Számvitel alapjai]] <br> 📈 [[Vállalati pénzügyek/index\|Vállalati pénzügyek]] | Könyvelé, tőkestruktúra, értékelés               |
-| **Informatika**     | ⚙️ [[IT architektúra/index\|IT architektúra]] <br>                                  | Rendszertervezés, szoftverfejlesztési életciklus |
+| Kategória           | Tantárgy                                                                                                    | Fő témák / Fókusz                                |
+| :------------------ | :---------------------------------------------------------------------------------------------------------- | :----------------------------------------------- |
+| **Kvantitatív**     | 📊 [[Statisztika I/index\|Statisztika I.]]                                                                  | Valószínűségszámítás, elemzések, kimutatások     |
+| **Pénzügy & Üzlet** | 💰 [[Számvitel alapjai/index\|Számvitel alapjai]]<br> 📈 [[Vállalati pénzügyek/index\|Vállalati pénzügyek]] | Könyvelé, tőkestruktúra, értékelés               |
+| **Informatika**     | ⚙️ [[IT architektúra/index\|IT architektúra]] <br>                                                          | Rendszertervezés, szoftverfejlesztési életciklus |
 
 
 ## 📌 Gyors linkek és hasznos anyagok
 
-- 📖 [[Fogalomtár]] – Keresztirányú egyetemi fogalmak gyűjteménye
 
 > [!info] Navigáció
 > Használd a `Cmd + O` billentyűkombinációt bármelyik jegyzet villámgyors megnyitásához, vagy a `Cmd + G`-t a vizuális tudásháló (Graph View) megjelenítéséhez!
