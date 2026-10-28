@@ -193,24 +193,76 @@ Ha a cég nemcsak kész árut vesz és ad el (mint egy kereskedő), hanem **gyá
 
 A vizsga végén gyakran kell Eredménykimutatást, Saját tőke változást és Mérleget készíteni. A ZH-n általában üres papírt kapsz, a fejléceket fejből kell tudnod felrajzolni!
 
-### 1. Az Idősoros Napló Fejléce
+### 1. Napló fejléce
 
-| Ssz. | Dátum (opcionális) | Szöveg (Esemény megnevezése) | Tartozik számla neve | Követel számla neve | Tartozik összeg | Követel összeg |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| ... | ... | ... | ... | ... | ... | ... |
-
+|     | Sorszám | Szöveg (Tétel megjelölése) | Tartozik számla neve | Követel számla neve | Tartozik összeg | Követel összeg |
+| :-- | :------ | :------------------------- | :------------------- | :------------------ | :-------------- | :------------- |
+|     |         |                            |                      |                     |                 |                |
+|     |         |                            |                      |                     |                 |                |
+|     |         |                            |                      |                     |                 |                |
+|     |         | **Összesen (Forgalom)**    |                      |                     |                 |                |
 > [!warning] Napló egyeztetés
 > A napló alján mindig összesíteni kell a Tartozik és Követel oszlopokat. Ezeknek az összegeknek egyezniük kell! Ez a "Napló összesen" összeg ráadásul milliméterre meg kell, hogy egyezzen a Főkönyvi kivonat "Halmozott forgalom" rovatának végösszegével. Ha nem egyezik, kihagytál valamit a naplóból vagy a T-számlákról!
 
-### 2. A Forgalmi Kimutatás Fejléce
+### 2. Főkönyvi kivonat fejléce
 
-A Forgalmi kimutatás abban különbözik a Főkönyvi kivonattól, hogy a Forgalmi kimutatás **hat** értékoszlopot tartalmaz, és elkülöníti a nyitó adatot az időszaki forgalomtól. (A Főkönyvi kivonat csak négy oszlopos: Halmozott forgalom T/K és Egyenleg T/K).
+|     | Főkönyvi számla neve | Forgalom Tartozik | Forgalom Követel | Záró egyenleg Tartozik | Záró egyenleg Követel |
+| :-- | :------------------- | :---------------- | :--------------- | :--------------------- | :-------------------- |
+|     |                      |                   |                  |                        |                       |
+|     |                      |                   |                  |                        |                       |
+|     |                      |                   |                  |                        |                       |
+|     | **Összesen**         |                   |                  |                        |                       |
 
-| Ssz. | Számla neve | Nyitó egyenleg (T) | Nyitó egyenleg (K) | Időszaki forgalom (T) | Időszaki forgalom (K) | Záró egyenleg (T) | Záró egyenleg (K) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| ... | ... | ... | ... | ... | ... | ... | ... |
+### 3. Forgalmi kimutatás fejléce
 
-### 3. A Zárás és az Eredménykimutatás összeállítása
+|     | Számla neve  | Nyitó egyenleg Tartozik | Nyitó egyenleg Követel | Időszaki forgalom Tartozik | Időszaki forgalom Követel | Záró egyenleg Tartozik | Záró egyenleg Követel |
+| :-- | :----------- | :---------------------- | :--------------------- | :------------------------- | :------------------------ | :--------------------- | :-------------------- |
+|     |              |                         |                        |                            |                           |                        |                       |
+|     |              |                         |                        |                            |                           |                        |                       |
+|     |              |                         |                        |                            |                           |                        |                       |
+|     | **Összesen** |                         |                        |                            |                           |                        |                       |
+
+### 4. Eredménykimutatás sorai
+
+| Megnevezés | Érték |
+| :--- | :--- |
+| Értékesítés nettó árbevétele | |
+| Közvetlen ráfordítások | |
+| **Bruttó eredmény** | |
+| Adminisztratív ráfordítások | |
+| Értékesítési ráfordítások | |
+| Egyéb bevételek és ráfordítások (+/-) | |
+| **Működési eredmény** | |
+| Pénzügyi bevételek és ráfordítások (+/-) | |
+| **Adózás előtti eredmény** | |
+| Eredményt terhelő adó | |
+| **Adózott eredmény** | |
+
+### 5. Saját tőke változás kimutatása
+
+| Megnevezés | Jegyzett tőke | Tartalékok | Összesen |
+| :--- | :--- | :--- | :--- |
+| **Nyitó** | | | |
+| Tőkebevonás | | | |
+| Tőkeleszállítás | | | |
+| Adózott eredmény | | | |
+| Osztalék / Kivét | | | |
+| **Záró** | | | |
+
+### 6. Mérleg sorai
+
+| Eszközök (Aktívák) | Nyitó | Záró | Források (Passzívák) | Nyitó | Záró |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Befektetett eszközök** | | | **Saját tőke** | | |
+| Immateriális eszközök / javak | | | Jegyzett tőke | | |
+| Tárgyi eszközök | | | Tartalékok | | |
+| **Forgóeszközök** | | | **Kötelezettségek** | | |
+| Készletek | | | Hosszú lejáratú kötelezettségek | | |
+| Követelések (Vevők) | | | Rövid lejáratú kötelezettségek | | |
+| Pénzeszközök (Bankszámla, Pénztár) | | | (Szállítók, Adótartozás, Bértartozás) | | |
+| **ESZKÖZÖK ÖSSZESEN** | | | **FORRÁSOK ÖSSZESEN** | | |
+
+### 7. A Zárás és az Eredménykimutatás összeállítása
 
 Az év (vagy időszak) végén a cég lezárja a könyveit, hogy megállapítsa, nyereséges volt-e.
 
