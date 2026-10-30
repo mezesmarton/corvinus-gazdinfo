@@ -116,18 +116,18 @@ Ez a leghosszabb, leginkább "számolós" feladat. Gyakorisági sorból (ahol -t
 Mielőtt számolsz, **ellenőrizd az osztályközök hosszát ($h$)!** Ha egyenlőek, mehet a sima számolás.
 
 1.  **Módusz ($Mo$):** A leggyakoribb érték. Keresd meg a legnagyobb gyakoriságú sort ($f_{max}$).
-    *   Excelben képlettel: $= Alsó\_határ + h \cdot \frac{f_{max} - f_{előző}}{(f_{max} - f_{előző}) + (f_{max} - f_{következő})}$
+    *   Excelben képlettel: $= Alsó\_határ + h \cdot \frac{f_{max} - f_{elozo}}{(f_{max} - f_{elozo}) + (f_{max} - f_{kovetkezo})}$
 2.  **Medián ($Me$):** Hol érjük el az 50%-ot?
     *   **Trükk:** A tanár szerint a legegyszerűbb, ha csinálsz egy **Kumulált Relatív Gyakoriság ($g'_i$)** oszlopot (százalékokban). Keresd meg azt a sort, ahol átlépjük az 50%-ot.
-    *   Képlet (interpoláció): $= Alsó\_határ + h \cdot \frac{50\% - g'_{előző}}{g_{saját}}$
+    *   Képlet (interpoláció): $= Alsó\_határ + h \cdot \frac{50\% - g'_{elozo}}{g_{sajat}}$
 3.  **Átlag ($\bar{Y}$):**
     *   Csinálj egy **Osztályközép ($Y_i$)** oszlopot: `=(Alsó+Felső)/2`.
     *   Számold ki az átlagot a `SZORZATÖSSZEG` függvénnyel: `=SZORZATÖSSZEG(Gyakoriság_oszlop; Osztályközép_oszlop) / SZUM(Gyakoriság_oszlop)`. (Sokkal gyorsabb, mint oszlopokat szorozgatni!)
 
 > [!done] 💡 Érthető magyarázat a Kvantilisek (Pl. $D_1, D_9, Q_1$) becsléséhez
 > A kvantiliseket pontosan ugyanazzal a "hegymászós" logikával (interpolációval) számoljuk, mint a mediánt, csak más "magasságot" keresünk!
-> *   $Q_1$ (Alsó kvartilis): Hol érjük el a **25%**-ot? Képlet: $= Alsó\_határ + h \cdot \frac{25\% - g'_{előző}}{g_{saját}}$
-> *   $D_9$ (9. decilis): Hol érjük el a **90%**-ot? Képlet: $= Alsó\_határ + h \cdot \frac{90\% - g'_{előző}}{g_{saját}}$
+> *   $Q_1$ (Alsó kvartilis): Hol érjük el a **25%**-ot? Képlet: $= Also\_hatar + h \cdot \frac{25\% - g'_{elozo}}{g_{sajat}}$
+> *   $D_9$ (9. decilis): Hol érjük el a **90%**-ot? Képlet: $= Alsó\_határ + h \cdot \frac{90\% - g'_{elozo}}{g_{sajat}}$
 > *   **Tipp:** Excelben az első (pl. $D_1$ azaz 10%) képletét dollározd fel úgy, hogy a sorokat ne fixáld, csak az oszlopokat, és **húzd lefelé**! Utána a cellában manuálisan be tudod húzni a színes kereteket a megfelelő sorba (pl. ahol a 75% van), és csak a $10\%$-ot kell átírnod $75\%$-ra a képletben!
 
 ### Alakmutatók: Lapultság
