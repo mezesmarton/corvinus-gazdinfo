@@ -1,7 +1,12 @@
 ---
-title: Statisztika I. - Exceles Gyakorlati ZH Felkészítő Jegyzet
+title: Exceles Gyakorlati ZH Felkészítő Jegyzet
 course: Statisztika I.
-tags: [statisztika, ZH, excel, adatelemzés, gyakorlat]
+tags:
+  - statisztika
+  - ZH
+  - excel
+  - adatelemzés
+  - gyakorlat
 ---
 
 > [!abstract] Rövid összefoglaló
