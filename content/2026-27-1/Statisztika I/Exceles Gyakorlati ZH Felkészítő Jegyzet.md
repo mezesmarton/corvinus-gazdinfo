@@ -157,7 +157,7 @@ Két minőségi (nominális) ismérv kapcsolatát vizsgáljuk. (Pl. Állampolgá
 1.  **Összesen sor/oszlop:** Ha nincs kitöltve a táblázatban, első dolgod a `SZUM` függvénnyel kiszámolni a sorok és oszlopok összesenjét, és a legalsó sarokba az $N$-et (fősokaság).
 2.  **Függetlenség ($f_{ij}^*$) számítása:**
     *   Létrehozol egy ugyanolyan üres táblázatot.
-    *   A bal felső cellába beírod: `= $Sorösszeg \cdot Oszlopösszeg\$ / $N\$`.
+    *   A bal felső cellába beírod: `= $Sorösszeg * Oszlopösszeg$ / $N$ pl. =$K5*C$10/$K$10`.
     *   **Trükk a dollározáshoz:** A Sorösszeg oszlopát fixáld (pl. `$K5`), az Oszlopösszeg sorát fixáld (pl. `C$10`), az $N$-et pedig teljesen fixáld (pl. `$K$10`). Ezt utána jobbra és lefelé is húzhatod, egy mozdulattal kész a teljes $f^*$ táblázat!
 3.  **$\chi^2$ kiszámítása:**
     *   `=SZUM( (Tényleges_tábla - Elméleti_tábla)^2 / Elméleti_tábla )` 
