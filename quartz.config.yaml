@@ -2,14 +2,14 @@
 # Template: obsidian
 # Optimized for Obsidian vaults with full OFM support and shortest link resolution.
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: "Corvinus tudástár"
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
+  locale: "hu-HU"
+  baseUrl: "mezesmarton.github.io/corvinus-gazdinfo"
   analytics:
     provider: plausible
-  locale: en-US
-  baseUrl: quartz.jzhao.xyz
   ignorePatterns:
     - private
     - templates
@@ -28,9 +28,9 @@ configuration:
         gray: "#b8b8b8"
         darkgray: "#4e4e4e"
         dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
+        secondary: "#b9854f"
+        tertiary: "#996b3d"
+        highlight: rgba(185, 133, 79, 0.15)
         textHighlight: "#fff23688"
       darkMode:
         light: "#161618"
@@ -38,10 +38,11 @@ configuration:
         gray: "#646464"
         darkgray: "#d4d4d4"
         dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
+        secondary: "#b9854f"
+        tertiary: "#d69c5e"
+        highlight: rgba(185, 133, 79, 0.15)
         textHighlight: "#b3aa0288"
+
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
