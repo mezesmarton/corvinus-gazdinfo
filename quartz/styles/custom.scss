@@ -25,3 +25,36 @@
   background-position: left center !important;
   background-repeat: no-repeat !important;
 }
+
+:root {
+  --secondary: #b9854f !important;
+  --tertiary: #996b3d !important;
+  --highlight: rgba(185, 133, 79, 0.15) !important;
+}
+
+:root[saved-theme="dark"] {
+  --secondary: #b9854f !important;
+  --tertiary: #d69c5e !important;
+  --highlight: rgba(185, 133, 79, 0.15) !important;
+}
+/* Alap linkek és látogatott linkek kényszerítése Corvinus kékre */
+a, a:visited, a.internal, a.external, .breadcrumb-element a {
+  color: #22314A !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease;
+}
+
+/* Sötét módban olvasható pasztell világoskék */
+:root[saved-theme="dark"] a, 
+:root[saved-theme="dark"] a:visited,
+:root[saved-theme="dark"] a.internal,
+:root[saved-theme="dark"] a.external,
+:root[saved-theme="dark"] .breadcrumb-element a {
+  color: #8fa4c9 !important;
+}
+
+/* Egér ráhúzásakor váltson egyetemi aranyra */
+a:hover, a.internal:hover, a.external:hover, .breadcrumb-element a:hover {
+  color: #b9854f !important;
+}
+
