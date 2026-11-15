@@ -35,11 +35,11 @@ A görbe az X-tengelyen a kumulált relatív gyakoriságot ($g'_i$), az Y-tengel
 
 ### A Koncentráció Mutatószámai
 
-| Mutató neve | Képlet | Értelmezés és Szélsőértékek |
-| :--- | :--- | :--- |
-| **Herfindahl-index ($HI$)** | $$HI = \sum_{i=1}^N Z_i^2$$ | Az abszolút koncentrációt (piaci uralmat) méri. A részesedéseket ($Z_i$) négyzetre emeljük, hogy a nagyokat jobban "büntessük".<br>**Min:** $1/N$ (Tökéletes egyenlőség).<br>**Max:** $1$ (Monopólium, teljes koncentráció). |
-| **Robin Hood-index ($H$)** | $$H = g'_{átlag} - Z'_{átlag}$$ | Megmutatja, hogy a teljes értékösszeg **hány százalékát kellene átcsoportosítani** az átlag felettiektől az átlag alattiaknak, hogy a koncentráció (egyenlőtlenség) megszűnjön. |
-| **Gini-együttható ($L$ / $G$)** | A Lorenz-görbe alatti "has" (koncentrációs terület) aránya. | **$0$**: Tökéletes egyenlőség.<br>**$1$**: Extrém koncentráció (mindent egy birtokol).<br>*Tipp:* $0,5$ felett már extrém koncentrációról beszélünk. |
+| Mutató neve                     | Képlet                                                      | Értelmezés és Szélsőértékek                                                                                                                                                                                                  |
+| :------------------------------ | :---------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Herfindahl-index ($HI$)**     | $$HI = \sum_{i=1}^N Z_i^2$$                                 | Az abszolút koncentrációt (piaci uralmat) méri. A részesedéseket ($Z_i$) négyzetre emeljük, hogy a nagyokat jobban "büntessük".<br>**Min:** $1/N$ (Tökéletes egyenlőség).<br>**Max:** $1$ (Monopólium, teljes koncentráció). |
+| **Robin Hood-index ($H$)**      | $$H = g'_{átlag} - Z'_{átlag}$$                             | Megmutatja, hogy a teljes értékösszeg **hány százalékát kellene átcsoportosítani** az átlag felettiektől az átlag alattiaknak, hogy a koncentráció (egyenlőtlenség) megszűnjön.                                              |
+| **Gini-együttható ($L$ / $G$)** | A Lorenz-görbe alatti "has" (koncentrációs terület) aránya. | 0 - 0,25: alacsony koncentráció<br>0,25 – 0,35: mérsékelt koncentráció<br>0,35 – 0,4: közepes koncentráció<br>0,4 – 0,5: magas koncentráció<br>0,5 – 1: extrém koncentráció                                                  |
 
 ---
 
