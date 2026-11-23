@@ -58,27 +58,44 @@ a:hover, a.internal:hover, a.external:hover, .breadcrumb-element a:hover {
   color: #b9854f !important;
 }
 
-// Mermaid timeline olvashatóságának javítása világos és sötét módban
-.mermaid svg {
-  .section-0, .section--1 {
-    fill: #e3f2fd !important; // Világoskék
-  }
-  .section-1 {
-    fill: #fff3e0 !important; // Világos narancs/bézs
-  }
-  .section-2 {
-    fill: #e8f5e9 !important; // Világoszöld
-  }
-  .section-3 {
-    fill: #f3e5f5 !important; // Világoslila
+// Mermaid timeline diagramok szépítése (Obsidian-szerű paletta világos és sötét módban is)
+svg[id^="mermaid-"] {
+  // 1. oszlop (Kék)
+  g.section-0 rect,
+  g.section-0 path,
+  g.section--1 rect,
+  g.section--1 path {
+    fill: #dbeafe !important;
+    stroke: #93c5fd !important;
   }
 
-  // Dobozokon belüli szövegek színének kényszerítése sötétre
-  .timeline-node text,
-  .eventWrapper text,
-  .taskWrapper text {
-    fill: #1e293b !important;
-    font-weight: 500;
+  // 2. oszlop (Narancs)
+  g.section-1 rect,
+  g.section-1 path {
+    fill: #ffedd5 !important;
+    stroke: #fdba74 !important;
+  }
+
+  // 3. oszlop (Zöld)
+  g.section-2 rect,
+  g.section-2 path {
+    fill: #dcfce7 !important;
+    stroke: #86efac !important;
+  }
+
+  // 4. oszlop (Lila - ha több szakasz lenne)
+  g.section-3 rect,
+  g.section-3 path {
+    fill: #f3e8ff !important;
+    stroke: #d8b4fe !important;
+  }
+
+  // Minden szöveg sötét színűre állítása a pasztell dobozokon belül
+  g[class*="section-"] text,
+  g[class*="section-"] tspan {
+    fill: #0f172a !important;
+    color: #0f172a !important;
   }
 }
+
 
