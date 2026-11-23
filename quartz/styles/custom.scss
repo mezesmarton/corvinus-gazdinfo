@@ -58,36 +58,41 @@ a:hover, a.internal:hover, a.external:hover, .breadcrumb-element a:hover {
   color: #b9854f !important;
 }
 
-// Mermaid timeline diagramok szépítése (Obsidian-szerű paletta világos és sötét módban is)
+// Mermaid timeline diagramok szépítése (3 külön színű oszlop: kék, narancs, zöld)
 svg[id^="mermaid-"] {
-  // 1. oszlop (Kék)
-  g.section-0 rect,
-  g.section-0 path,
+  // 1. oszlop (Kék - section--1)
   g.section--1 rect,
   g.section--1 path {
     fill: #dbeafe !important;
     stroke: #93c5fd !important;
   }
 
-  // 2. oszlop (Narancs)
-  g.section-1 rect,
-  g.section-1 path {
+  // 2. oszlop (Narancs - section-0)
+  g.section-0 rect,
+  g.section-0 path {
     fill: #ffedd5 !important;
     stroke: #fdba74 !important;
   }
 
-  // 3. oszlop (Zöld)
-  g.section-2 rect,
-  g.section-2 path {
+  // 3. oszlop (Zöld - section-1)
+  g.section-1 rect,
+  g.section-1 path {
     fill: #dcfce7 !important;
     stroke: #86efac !important;
   }
 
-  // 4. oszlop (Lila - ha több szakasz lenne)
-  g.section-3 rect,
-  g.section-3 path {
+  // 4. oszlop (Lila - section-2, ha több szakasz lenne)
+  g.section-2 rect,
+  g.section-2 path {
     fill: #f3e8ff !important;
     stroke: #d8b4fe !important;
+  }
+
+  // 5. oszlop (Rózsaszín - section-3, ha még több szakasz lenne)
+  g.section-3 rect,
+  g.section-3 path {
+    fill: #fce7f3 !important;
+    stroke: #f9a8d4 !important;
   }
 
   // Minden szöveg sötét színűre állítása a pasztell dobozokon belül
@@ -97,5 +102,4 @@ svg[id^="mermaid-"] {
     color: #0f172a !important;
   }
 }
-
 
