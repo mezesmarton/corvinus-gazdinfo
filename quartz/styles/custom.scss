@@ -58,3 +58,27 @@ a:hover, a.internal:hover, a.external:hover, .breadcrumb-element a:hover {
   color: #b9854f !important;
 }
 
+// Mermaid timeline olvashatóságának javítása világos és sötét módban
+.mermaid svg {
+  .section-0, .section--1 {
+    fill: #e3f2fd !important; // Világoskék
+  }
+  .section-1 {
+    fill: #fff3e0 !important; // Világos narancs/bézs
+  }
+  .section-2 {
+    fill: #e8f5e9 !important; // Világoszöld
+  }
+  .section-3 {
+    fill: #f3e5f5 !important; // Világoslila
+  }
+
+  // Dobozokon belüli szövegek színének kényszerítése sötétre
+  .timeline-node text,
+  .eventWrapper text,
+  .taskWrapper text {
+    fill: #1e293b !important;
+    font-weight: 500;
+  }
+}
+
